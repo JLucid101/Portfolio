@@ -1,0 +1,75 @@
+
+body {
+   
+    margin: 0;
+      background-image: url("background.jpg");
+      background-color: #cccccc;
+  
+  }
+  
+  .wrapper {
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 3px solid rgb(255, 255, 255);
+  }
+  
+  .greeting {
+    margin-top: 20px;
+    font-family: 'Spectral SC', serif;
+    letter-spacing: 1px;
+    color: floralwhite;
+  }
+  
+  .name {
+    font-size: 3rem;
+    font-family: 'Spectral SC', serif;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+
+.rule {
+  width: 40%;
+}
+
+.hobbies {
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-family: 'Staatliches', cursive;
+  font-size: xx-large;
+}
+
+.nav-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: gray;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation a {
+  font-family: 'Bebas Neue', cursive;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 25px;
+}
+
+.navigation a:hover {
+    background-color: rgb(255, 255, 255);
+}
